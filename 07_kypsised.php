@@ -22,7 +22,7 @@ for ($i=1; $i<=40 ; $i++) {
 	$y1 = rand(1,100); 
 	$x2 = rand(1,100); 
 	$y2 = rand(1,100); 
-	imagesetthickness($pilt, 2); 
+	imagesetthickness($pilt, 1,); 
 	imagedashedline($pilt, $x1, $y1, $x2, $y2, $teksti_varv); 
 } 
 //lisame pildile soovitud parameetrud

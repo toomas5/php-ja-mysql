@@ -1,5 +1,5 @@
 <?php
-include ("07_config.php");
+include ("config.php");
 session_start();
 ?>
 <!doctype html>
